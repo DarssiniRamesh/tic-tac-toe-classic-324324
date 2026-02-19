@@ -1,0 +1,13 @@
+{
+  "name": "db-static-frontend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "build": "mkdir -p dist && cp -r public/* dist/",
+    "test": "jest --passWithNoTests"
+  },
+  "devDependencies": {
+    "jest": "29.x"
+  }
+}
